@@ -5,7 +5,7 @@
        url('font/Questrial-regular.ttf') format('truetype');
 }
 body{
-	font-family: 'Questrial';
+	font-family: 'Questrial', sans-serif;
 }
 .menu-content li.active a{
 
