@@ -30,3 +30,8 @@ width: 20px;
 .menu-content li.active a{
 	color:#b3d234;
 }
+@media (max-width: 579px) and (min-width: 320px){
+	.menu-media {
+		display: none;
+	}
+}
