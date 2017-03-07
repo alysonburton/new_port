@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Questrial';
+  src: url('font/questrial-regular-webfont.woff2') format('woff2'),
+       url('font/questrial-regular-webfont.woff') format('woff'),
+       url('font/Questrial-regular.ttf') format('truetype');
+}
+body{
+	font-family: 'Questrial';
+}
+.menu-content li.active a{
+
+}
+#main_logo{
+	width: 60px;
+	top:10px;
+}
+.grid .text{
+	background-color: #b3d234;
+}
+a:hover{
+	color:#b3d234;
+}
+::selection {
+  background: #b3d234!important;
+  color:white;
+}
+#logo_nav{
+width: 20px;
+}
+.menu-content li.active a{
+	color:#b3d234;
+}
