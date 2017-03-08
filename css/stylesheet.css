@@ -56,17 +56,17 @@ width: 20px;
 	background: none!important;
 }
 
-.about-us{
+.about-us, .contact{
 	background-color: rgba(255,255,255,.9);
 }
 
 .portfolio{
 	background-color:rgba(243, 243, 243, 0.9);
 }
-
-.contact{
-	background-color: rgba(255,255,255,.9);
-	padding: 20px;
+@media (max-width: 579px) and (min-width: 320px){
+	.contact{
+		padding: 20px;
+	}
 }
 
 .start-page .content .text img{
